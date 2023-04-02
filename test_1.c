@@ -6,7 +6,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-//int main()//一串字符从两边向中显示
+//int main()//一串字符从两边向中间显示
 //{
 //	while (1)
 //	{
