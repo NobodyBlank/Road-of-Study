@@ -6,7 +6,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-//int main()//一串字符从两边向中间显示
+//int main()//一串字符从两边向中显示
 //{
 //	while (1)
 //	{
@@ -360,19 +360,25 @@
 //{
 //    int a[10] = { 0 };
 //    int b = 0;
-//    char ch[10] = "w";
-//    printf("%d ", (int)sizeof(a));
+//    char ch[] = { 'w' };
+//    printf("%d ", (int)sizeof(ch));
 //    test1(ch);
 // 	return 0;
 //}
 
 
-int main()
+//int main()
+//{
+//	int c = 2, b;
+//	b = c + --c;
+//	printf("%d", b);
+//	return 0;
+//}
+
+int main() 
 {
-	int c = 2, b;
-	b = c + --c;
-	printf("%d", b);
+
 	return 0;
 }
-
 //探索一下汉诺塔问题和青蛙跳台阶问题（还未探索）
+//如果鹏哥的课程后面没有讲函数栈帧（函数栈帧的创建和销毁讲解），函数压栈，那就自己研究一下
