@@ -375,10 +375,21 @@
 //	return 0;
 //}
 
-int main() 
-{
+////写一个函数打印arr数组的内容，不使用数组下标,使用指针。
+//void printarr(int* arr,int sz)
+//{
+//	int i = 0;
+//	for(i=0;i<sz;i++)
+//	printf("%d ", *(arr+i));
+//}
+//int main() 
+//{
+//	int arr[10] = { 0,1,2,3,4,5,6,7,8,9 };
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	printarr(arr,sz);
+//	return 0;
+//}
 
-	return 0;
-}
+
 //探索一下汉诺塔问题和青蛙跳台阶问题（还未探索）
 //如果鹏哥的课程后面没有讲函数栈帧（函数栈帧的创建和销毁讲解），函数压栈，那就自己研究一下
