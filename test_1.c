@@ -1,11 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-#include<math.h>
 #include<string.h>
+#include<windows.h>
+#include<math.h>
 //欲使用随机数srand((unsigned int)time(NULL))，random()函数，需要引如下两个头文件
 #include<stdlib.h>
 #include<time.h>
-
 //int main()//一串字符从两边向中显示
 //{
 //	while (1)
@@ -316,42 +316,6 @@
 //}
 
 
-//力扣第一题暂存的错误
-//int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
-//    char numss[50] = { 0 };
-//    scanf_s("numss = [%s],target = %d", numss, &target);
-//    int a, b, i, j, k, temp,count=0;
-//    for(i = 0; numss[i] != '\0'; ++i)
-//    {
-//        count++;
-//    }
-//    numsSize = count;
-//    for (j = 0, k = 0; k < numsSize; ++j, k += 2)
-//    {
-//        numss[j] = numss[k];
-//    }
-//    temp = j;
-//    while (j < numsSize)
-//    {
-//        numss[j] = '\0';
-//        j++;
-//    }
-//    i = 0, j = 1;
-//    while (1)
-//    {
-//        for (i = 0; i < temp; ++i)
-//        {
-//            for (j = 1; j <= temp; ++j)
-//            {
-//                if (numss[i] + numss[j] == target)
-//                    a = i, b = j;
-//                break;
-//            }
-//        }
-//    }
-//    printf("[%d,%d]", a, b);
-//}
-
 //void test1(char pb[])
 //{
 //    printf("%d", sizeof(pb));
@@ -390,6 +354,11 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//    
+//    return 0;
+//}
 
 //探索一下汉诺塔问题和青蛙跳台阶问题（还未探索）
 //如果鹏哥的课程后面没有讲函数栈帧（函数栈帧的创建和销毁讲解），函数压栈，那就自己研究一下
