@@ -393,30 +393,40 @@
 //	return 0;
 //}
 
+//char* my_strcat(char* dest, const char* src) {
+//	char* ret = dest; 
+//	//1．找到目标空间的末尾\0
+//	while (*dest++)
+//	{
+//	    ;
+//	}
+//	dest--;
+//	//2．拷贝字符串
+//	while (*dest++ = *src++)
+//	{
+//	    ;
+//	}
+//	return ret;
+//}
+//int main(void)
+//{
+//	char arr1[20] = "hello ";
+//		my_strcat(arr1, "world");
+//	printf("%s", arr1);
+//
+//}
 
-char* my_strcat(char* dest, const char* src) {
-	char* ret = dest; 
-	//1．找到目标空间的末尾\0
-	while (*dest++)
-	{
-	    ;
+int main() {
+	char a[1000] = { 0 }; int i = 0;
+	for (i = 0; i < 1000; i++) {
+		a[i] = -1 - i;
 	}
-	dest--;
-	//2．拷贝字符串
-	while (*dest++ = *src++)
-	{
-	    ;
-	}
-	return ret;
+	printf("%d" , strlen(a));
+	return 0;
 }
-int main(void)
-{
-	char arr1[20] = "hello ";
-		my_strcat(arr1, "world");
-	printf("%s", arr1);
 
-}
 
 //探索一下汉诺塔问题和青蛙跳台阶问题（还未探索）
 //如果鹏哥的课程后面没有讲函数栈帧（函数栈帧的创建和销毁讲解），函数压栈，那就自己研究一下
 //typedef是什么意思呢？
+//研究一下KMP算法
