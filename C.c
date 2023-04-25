@@ -416,18 +416,183 @@
 //
 //}
 
-int main(void)
-{
-	int a, b, c;
-	a = (b = 3 * 5, c = 10, b * c), a = 20;
-	printf("%d", a);
-		return 1;
-} 
+//int main(void)
+//{
+//	int a = 0;
+//	int sum = 0;
+//	while (scanf("%d", &a) == 1)
+//	{
+//		sum += a;
+//		if ((a=getchar()) == '\n')
+//			break;
+//		else
+//			ungetc(a,stdin);
+//	}
+//	printf("%d", sum);
+//	return 0;
+//} 
 
+//main()
+//
+//{
+//    int a = 2, b = -1, c = 2;
+//
+//    if (a < b)
+//        if (b < 0) c = 0;
+//    
+//    else c++;
+//
+//    printf("%d\n", c);
+//
+//}
+
+//int main()
+//{
+//    int num = 0;
+//    int x = 0;
+//    int sum = 0;
+//    scanf("%d", &num);
+//    int count = 0;
+//    while (count < num)
+//    {
+//        scanf("%d", &x);
+//        if (x == '\n')
+//            break;
+//        sum += x;
+//        count++;
+//    }
+//    float avg = (float)sum / num;
+//    if (avg >= 90)
+//        printf("优秀");
+//    else if (avg < 60)
+//        printf("差");
+//    else
+//        printf("良好");
+//    return 0;
+//}
+
+//int main()
+//{
+//    int m, n;
+//    scanf("%d,%d",&m,&n);
+//    int i = 0;
+//    for (i = m; i <= n; i++)
+//    {
+//        int flag = 1, j;
+//        for (j = 2; j <= (i/2); j++)
+//        {
+//            if (i % j == 0)
+//            {
+//                flag = 0;
+//                break;
+//            }
+//        }
+//        if (flag == 1)
+//            printf("%d ", i);
+//    }
+//    return 0;
+//}
+
+//int main()
+//{
+//    int line = 0, n = 0, num = 1;
+//    scanf("%d",&n);
+//    int i = 0;
+//    for (i = 0; i < n-1; num += 2, i++);
+//    for (line = 0; line < n; line++)
+//    {
+//        for (i = 0; i < line; i++)
+//            printf(" ");
+//        for (i = 0; i < num; i++)
+//            printf("*");
+//        printf("\n");
+//        num -= 2;
+//    }
+//    return 0;
+//}
+
+//int main()
+//{
+//    int n = 0;
+//    scanf("%d", &n);
+//    int i = 0;
+//    for (i = n; i > 0; i--)
+//    {
+//        if (i % 17 == 0)
+//            break;
+//    }
+//    printf("%d", i);
+//    return 0;
+//}
+
+//main()
+//{
+//	int num, digit = 0, t;
+//	printf("input a number\n");
+//	scanf("%d", &num);
+//	while (num != 0)
+//	{
+//		t = num % 10;
+//		if (!(t % 2))
+//			digit = 10 * digit + t;
+//
+//		num /= 10;
+//	}
+//	printf("%d\n", digit);
+//}
+
+//int main()
+//{
+//    int n;
+//    scanf("%d", &n);
+//    int m=0;
+//    int count;
+//    int i = n;
+//    for (count = 0; i != 0; count++, i /= 10);
+//    int tmp;
+//    for (i = 0; i < count; i++)
+//    {
+//        int j;
+//        tmp = n % 10;
+//        m *= 10;
+//        m += tmp;
+//        n /= 10;
+//    }
+//    printf("逆序数为%d,位数为%d", m, count);
+//    return 0;
+//}
+
+//int main()
+//{
+//    char ch = '0';
+//    while (scanf("%c", &ch))
+//    {
+//        if (ch == '\n')
+//            break;
+//        if (ch == 'x')
+//            printf("a");
+//        else if (ch == 'y')
+//            printf("b");
+//        else if (ch == 'z')
+//            printf("c");
+//        else if (ch == 'X')
+//            printf("A");
+//        else if (ch == 'Y')
+//            printf("B");
+//        else if (ch == 'Z')
+//            printf("C");
+//        else if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+//            printf("%c", ch + 3);
+//        else
+//            printf("%c", ch);
+//    }
+//    return 0;
+//}
 
 //探索一下汉诺塔问题和青蛙跳台阶问题（还未探索）
 //如果鹏哥的课程后面没有讲函数栈帧（函数栈帧的创建和销毁讲解），函数压栈，那就自己研究一下
 //typedef是什么意思呢？
 //研究一下KMP算法
-//鹏哥C语言讲完结构体还有一个百度面试题没讲 说要后面讲
 //最大公约数和最小公倍数计算方法：辗转相除法求最大公约数，两数相乘除以最大公约数等于最小公倍数
+//ezayx图形框架和QT图形框架
+//i/O设备有哪些
